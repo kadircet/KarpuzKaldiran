@@ -76,7 +76,6 @@ void AKarpuzKaldiranCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AKarpuzKaldiranCharacter::OnResetVR);
 }
 
-
 void AKarpuzKaldiranCharacter::OnResetVR()
 {
 	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
